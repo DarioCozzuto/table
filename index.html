@@ -1,0 +1,90 @@
+ <!DOCTYPE html>
+<html>
+<title>table</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+<body>
+    <style>
+        table ,th ,td {
+            text-align: center;
+            border-style: solid;
+            border-color: rgb(22, 22, 22);
+            border-width: 2px;
+            border-collapse: collapse;
+        }
+
+        table {
+            margin: auto;
+            width: 800px;
+            height: 200px;
+        }
+
+        th {
+            background-color: rgb(80, 80, 80);
+            color: white;
+            font-size: 15px;
+        }
+
+        th, td {
+            font-family: 'Montserrat', sans-serif;
+            padding: 8px;
+        }
+
+        .tr:hover {
+            background-color: rgb(219, 219, 219);
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .prezzo {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+        }
+    </style>
+    <h1>Tabella informazioni Notebook usati</h1>
+   <table>
+       <tr class="tr">  
+            <th>Marchio</th>
+            <th>Modello</th>
+            <th>Condizioni</th>
+            <th class="prezzo">Prezzo</th>
+       </tr>
+       <tr class="tr">
+            <td><b><img src="Asus-Logo.png" height="50px" alt="asus logo"></b></td>
+            <td>StudioBook 15</td>
+            <td>Ottime</td>
+            <td class="prezzo">1600€</td>
+       </tr>
+       <tr>
+            <td class="tr"><b><img src="Apple-Logo.png" width="50px" alt="apple logo"></b></td>
+            <td>MacBook Pro</td>
+            <td>Buone</td>
+            <td class="prezzo tr">2200€</td>
+       </tr>
+       <tr class="tr">
+            <td><b><img src="Acer-Logo.png" height="50px" alt="acer logo"></b></td>
+            <td>Predator</td>
+            <td>Buone</td>
+            <td class="prezzo">800€</td>
+       </tr>
+       <tr class="tr">
+            <td><b><img src="Lenovo-Logo.png" height="50px" alt="lenovo logo"></b></td>
+            <td>IdeaPad</td>
+            <td>Ottime</td>
+            <td class="prezzo">900€</td>
+   </tr>
+   </table>
+
+</body>
+</html> 
